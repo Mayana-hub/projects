@@ -212,7 +212,7 @@
 }
 
 .img-ads .card {
-    background-image: url(./image/first-ads\ img-background\ img.png);
+    background-image: url(./image/first\ bckgroung\ img.png);
     width: 417px;
     align-items: center;
     padding: 48px 78px;
@@ -232,8 +232,117 @@
     color: #FFFFFF;
 }
 
-.img-ads div {
+.img-ads>div {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: end;
+}
+
+.img-ads button {
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 24px 39px;
+    background-color: #333333;
+
+}
+
+.sign-up div {
+    display: flex;
+    gap: 30px;
+}
+
+.sign-up h3 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-bottom: 22px;
+}
+
+.sign-up img {
+    max-width: 749px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 391px;
+    gap: 10px;
+}
+
+form input {
+    padding: 15px 21px;
+    border: none;
+    background-color: #F3F3F3;
+}
+
+form textarea {
+    padding: 14px 0 0 21px;
+    background-color: #F3F3F3;
+    width: 372px;
+    height: 147px;
+    border: none;
+}
+
+form p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding: 22px 20px;
+    width: 331px;
+}
+
+form button {
+    padding: 21px 0;
+    max-width: 221px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+footer {
+    padding: 58px 212px 60px 116px;
+    background-color: #2C2C2C;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: end;
+}
+
+footer div h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+footer div p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0 0 19px;
+}
+
+footer .fa {
+    padding: 30px;
+}
+
+.footer-border {
+    border: 1px solid #414141;
+}
+
+.copy-right h4 {
+    background-color: #2C2C2C;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #C8C8C880;
+    padding: 24px 0;
 }
