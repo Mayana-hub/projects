@@ -11,8 +11,8 @@
 
 .landing-page .logo {
     display: flex;
-    justify-content: space-between;
-    padding: 30px 204px 30px 0;
+    gap: 330px;
+    padding: 30px 0;
     align-items: center;
 }
 
@@ -38,7 +38,11 @@
 
 .hero1 {
     display: flex;
-    justify-content: space-between;
+    gap: 69px;
+}
+
+#img {
+    width: 100%;
 }
 
 .hero1 div h1 {
@@ -94,15 +98,17 @@
     color: #BDBDBD;
 }
 
-.logo .position-relative #img {
+.position-relative {
     position: relative;
+    width: 100%;
 
 }
 
 .position-relative button {
     position: absolute;
     padding: 30px 50px;
-    bottom: -520px;
+    bottom: 0;
+    left: 0;
     background-color: #FFFFFF;
     text-align: center;
     border: none;
@@ -329,9 +335,6 @@ footer div p {
     padding: 16px 0 0 19px;
 }
 
-footer .fa {
-    padding: 30px;
-}
 
 .footer-border {
     border: 1px solid #414141;
@@ -345,4 +348,13 @@ footer .fa {
     line-height: 22px;
     color: #C8C8C880;
     padding: 24px 0;
+}
+
+i {
+    padding-left: 12px;
+}
+
+footer .fa-brands {
+    padding: 40px 40px 0;
+    color: #FFFFFF;
 }
