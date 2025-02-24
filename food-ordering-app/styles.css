@@ -216,6 +216,7 @@ footer div {
 
 @media (max-width: 385px) {
     .logo {
+        flex-direction: column;
         gap: 20px;
         padding: 10px 40px 28px 40px;
     }
@@ -264,7 +265,7 @@ footer div {
 
     .firstimg img {
         width: 224px;
-        top: 199px;
+        top: 240px;
     }
 
     .border {
@@ -309,6 +310,7 @@ footer div {
 
     .setup .sign-up {
         height: 375px;
+        padding: 5px;
     }
 
     .background-img2 {
@@ -335,6 +337,31 @@ footer div {
     .app-downlaod a button {
         padding: 5px 10px;
     }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    #footer-logo {
+        width: 100px;
+    }
+
+    footer div {
+        gap: 70px;
+    }
+
+    footer div img {
+        width: 10px;
+    }
+
+    footer h5 {
+        font-weight: 300;
+        font-size: 5px;
+        line-height: 5px;
+    }
+
 }
 
 @media (min-width: 386px) and (max-width: 575px) {
@@ -432,6 +459,10 @@ footer div {
 
     .setup .sign-up {
         height: 375px;
+    }
+
+    .setup .sign-up>div {
+        top: 236px;
     }
 
     .background-img2 {
