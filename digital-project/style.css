@@ -9,14 +9,14 @@
     padding: 0 135px 120px;
 }
 
-.landing-page .logo {
+.landing-page .nav {
     display: flex;
     gap: 330px;
     padding: 30px 0;
     align-items: center;
 }
 
-.logo .top-nav {
+.nav .top-nav {
     display: flex;
     gap: 60px;
     align-items: center;
@@ -24,12 +24,12 @@
 
 }
 
-.logo .top-nav #active {
+.nav .top-nav #active {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-.logo .top-nav nav {
+.nav .top-nav a {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;

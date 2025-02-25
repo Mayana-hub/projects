@@ -6,7 +6,7 @@
     font-family: "Poppins", serif;
 }
 
-.logo {
+.nav-bar {
     padding: 26px 40px 28px 90px;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@ nav a {
     color: #FA4A0C;
 }
 
-.Hero1 {
+.Hero {
     background-image: url(./images/olunje\ first\ background\ img.png);
     background-size: cover;
 }
@@ -151,25 +151,25 @@ nav a {
     height: 280px;
 }
 
-.background-img2 {
+.call-to-action {
     background-image: url(./images/olunje\ backgroundimg\ 2.png);
     background-size: cover;
     padding: 130px 230px;
 
 }
 
-.background-img2 .app-downlaod {
+.call-to-action .app-downlaod {
     text-align: center;
 }
 
-.background-img2 .app-downlaod h2 {
+.call-to-action .app-downlaod h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
     color: #FFFFFF;
 }
 
-.background-img2 .app-downlaod h4 {
+.call-to-action .app-downlaod h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
@@ -215,13 +215,13 @@ footer div {
 }
 
 @media (max-width: 385px) {
-    .logo {
+    .nav-bar {
         flex-direction: column;
         gap: 20px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 80px;
     }
 
@@ -313,17 +313,17 @@ footer div {
         padding: 5px;
     }
 
-    .background-img2 {
+    .call-to-action {
         padding: 30px 100px;
     }
 
-    .background-img2 .app-downlaod h2 {
+    .call-to-action .app-downlaod h2 {
         font-weight: 300;
         font-size: 18px;
         line-height: 22px;
     }
 
-    .background-img2 .app-downlaod h4 {
+    .call-to-action .app-downlaod h4 {
         font-weight: 200;
         font-size: 13px;
         line-height: 28px;
@@ -365,12 +365,12 @@ footer div {
 }
 
 @media (min-width: 386px) and (max-width: 575px) {
-    .logo {
+    .nav-bar {
         gap: 20px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 80px;
     }
 
@@ -465,17 +465,17 @@ footer div {
         top: 236px;
     }
 
-    .background-img2 {
+    .call-to-action {
         padding: 30px 100px;
     }
 
-    .background-img2 .app-downlaod h2 {
+    .call-to-action .app-downlaod h2 {
         font-weight: 300;
         font-size: 18px;
         line-height: 22px;
     }
 
-    .background-img2 .app-downlaod h4 {
+    .call-to-action .app-downlaod h4 {
         font-weight: 200;
         font-size: 13px;
         line-height: 28px;
@@ -518,12 +518,12 @@ footer div {
         gap: 30px;
     }
 
-    .logo {
+    .nav-bar {
         gap: 10px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 80px;
     }
 
@@ -545,20 +545,20 @@ footer div {
         padding: 0 20px;
     }
 
-    .background-img2 .app-downlaod h2 {
+    .call-to-action .app-downlaod h2 {
         font-weight: 500;
         font-size: 21px;
         line-height: 34px;
     }
 
-    .background-img2 .app-downlaod h4 {
+    .call-to-action .app-downlaod h4 {
         font-weight: 300;
         font-size: 15px;
         line-height: 30px;
         margin: 8px 0 24px;
     }
 
-    .background-img2 {
+    .call-to-action {
         padding: 30px 100px;
     }
 
@@ -593,12 +593,12 @@ footer div {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
+    .nav-bar {
         gap: 10px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 100px;
 
     }
@@ -625,13 +625,13 @@ footer div {
         padding: 0 30px 0;
     }
 
-    .background-img2 .app-downlaod h2 {
+    .call-to-action .app-downlaod h2 {
         font-weight: 400;
         font-size: 30px;
         line-height: 49px;
     }
 
-    .background-img2 .app-downlaod h4 {
+    .call-to-action .app-downlaod h4 {
         font-weight: 300;
         font-size: 24px;
         line-height: 34px;
@@ -647,7 +647,7 @@ footer div {
         padding: 9px 28px
     }
 
-    .background-img2 {
+    .call-to-action {
         padding: 108px 135px;
     }
 
@@ -672,12 +672,12 @@ footer div {
 }
 
 @media (min-width: 992px) and (max-width: 1119px) {
-    .logo {
+    .nav-bar {
         gap: 10px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 100px;
 
     }
@@ -714,12 +714,12 @@ footer div {
 }
 
 @media (min-width: 1120px) and (max-width: 1399px) {
-    .logo {
+    .nav-bar {
         gap: 10px;
         padding: 10px 40px 28px 40px;
     }
 
-    .logo img {
+    .nav-bar img {
         width: 100px;
 
     }
