@@ -6,7 +6,7 @@
     font-family: "Poppins", serif;
 }
 
-.logo {
+.nav-bar {
     padding: 26px 40px 28px 90px;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@ nav a {
     color: #FA4A0C;
 }
 
-.background-img {
+.Hero {
     background-image: url(./images/olunje\ first\ background\ img.png);
     background-size: cover;
 }
@@ -91,7 +91,7 @@ nav a {
     margin-left: 34px;
 }
 
-.firstimg {
+.firstimg img {
     position: absolute;
     top: 300px;
     left: 0;
@@ -144,7 +144,6 @@ nav a {
     font-size: 24px;
     line-height: 38px;
     color: #737373;
-
 }
 
 .setup .sign-up>div {
@@ -152,24 +151,25 @@ nav a {
     height: 280px;
 }
 
-.background-img2 {
+.call-to-action {
     background-image: url(./images/olunje\ backgroundimg\ 2.png);
     background-size: cover;
     padding: 130px 230px;
+
 }
 
-.background-img2 .app-downlaod {
+.call-to-action .app-downlaod {
     text-align: center;
 }
 
-.background-img2 .app-downlaod h2 {
+.call-to-action .app-downlaod h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
     color: #FFFFFF;
 }
 
-.background-img2 .app-downlaod h4 {
+.call-to-action .app-downlaod h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
@@ -212,4 +212,541 @@ footer div {
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+@media (max-width: 385px) {
+    .nav-bar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 80px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+
+    .heading1 {
+        padding: 17px 0 24px;
+    }
+
+    .heading1 p {
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+    .heading1 h4 {
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+
+    .heading1 .active {
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 10px 24px;
+    }
+
+
+    .heading1 button {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 10px 24px;
+        margin-left: 29px;
+    }
+
+
+    .firstimg img {
+        width: 224px;
+        top: 240px;
+    }
+
+    .border {
+        border: 1px solid #E4E4E4;
+        margin: 213px 26px 0;
+    }
+
+    .heading2 h3 {
+        font-weight: 200;
+        font-size: 34px;
+        line-height: 27px;
+        padding-top: 35px;
+    }
+
+    .setup {
+        padding: 0;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    .setup .sign-up h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: 6px;
+    }
+
+    .setup .sign-up h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 6px;
+    }
+
+    .setup .sign-up h4 {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .setup .sign-up {
+        height: 375px;
+        padding: 5px;
+    }
+
+    .call-to-action {
+        padding: 30px 100px;
+    }
+
+    .call-to-action .app-downlaod h2 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .call-to-action .app-downlaod h4 {
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 28px;
+        margin: 6px 0 10px;
+    }
+
+    .app-downlaod button {
+        padding: 5px 10px;
+    }
+
+    .app-downlaod a button {
+        padding: 5px 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    #footer-logo {
+        width: 100px;
+    }
+
+    footer div {
+        gap: 70px;
+    }
+
+    footer div img {
+        width: 10px;
+    }
+
+    footer h5 {
+        font-weight: 300;
+        font-size: 5px;
+        line-height: 5px;
+    }
+
+}
+
+@media (min-width: 386px) and (max-width: 575px) {
+    .nav-bar {
+        gap: 20px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 80px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+
+    .heading1 {
+        padding: 17px 0 24px;
+    }
+
+    .heading1 p {
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+    .heading1 h4 {
+        font-weight: 100;
+        font-size: 13px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+
+    .heading1 .active {
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 10px 24px;
+    }
+
+
+    .heading1 button {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 10px 24px;
+        margin-left: 29px;
+    }
+
+
+    .firstimg img {
+        width: 224px;
+        top: 199px;
+    }
+
+    .border {
+        border: 1px solid #E4E4E4;
+        margin: 213px 26px 0;
+    }
+
+    .heading2 h3 {
+        font-weight: 200;
+        font-size: 34px;
+        line-height: 27px;
+        padding-top: 35px;
+    }
+
+    .setup {
+        padding: 0;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    .setup .sign-up h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: 6px;
+    }
+
+    .setup .sign-up h2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 6px;
+    }
+
+    .setup .sign-up h4 {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .setup .sign-up {
+        height: 375px;
+    }
+
+    .setup .sign-up>div {
+        top: 236px;
+    }
+
+    .call-to-action {
+        padding: 30px 100px;
+    }
+
+    .call-to-action .app-downlaod h2 {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .call-to-action .app-downlaod h4 {
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 28px;
+        margin: 6px 0 10px;
+    }
+
+    .app-downlaod button {
+        padding: 5px 10px;
+    }
+
+    .app-downlaod a button {
+        padding: 5px 10px;
+    }
+
+    footer #footer-logo {
+        width: 80px;
+    }
+
+    footer img {
+        width: 11px;
+    }
+
+    footer {
+        padding: 10px 15px;
+    }
+
+    footer h5 {
+        font-weight: 200;
+        font-size: 6px;
+        line-height: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    nav {
+        gap: 30px;
+    }
+
+    .nav-bar {
+        gap: 10px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 80px;
+    }
+
+    .firstimg img {
+        width: 324px;
+        top: 465px;
+    }
+
+    .border {
+        border: 1px solid #E4E4E4;
+        margin: 183px 78px 0;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    .setup {
+        padding: 0 20px;
+    }
+
+    .call-to-action .app-downlaod h2 {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 34px;
+    }
+
+    .call-to-action .app-downlaod h4 {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        margin: 8px 0 24px;
+    }
+
+    .call-to-action {
+        padding: 30px 100px;
+    }
+
+    .app-downlaod button {
+        padding: 10px 25px;
+        margin-left: 12px;
+    }
+
+    .app-downlaod a button {
+        padding: 9px 28px
+    }
+
+    footer #footer-logo {
+        width: 80px;
+    }
+
+    footer img {
+        width: 11px;
+    }
+
+    footer {
+        padding: 10px 15px;
+    }
+
+    footer h5 {
+        font-weight: 200;
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav-bar {
+        gap: 10px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 100px;
+
+    }
+
+    nav {
+        gap: 70px;
+    }
+
+    .firstimg img {
+        width: 324px;
+        top: 465px;
+    }
+
+    .border {
+        border: 2px solid #E4E4E4;
+        margin: 284px 154px 0;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    .setup {
+        padding: 0 30px 0;
+    }
+
+    .call-to-action .app-downlaod h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 49px;
+    }
+
+    .call-to-action .app-downlaod h4 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 34px;
+        margin: 5px 0 26px;
+    }
+
+    .app-downlaod button {
+        padding: 10px 25px;
+        margin-left: 12px;
+    }
+
+    .app-downlaod a button {
+        padding: 9px 28px
+    }
+
+    .call-to-action {
+        padding: 108px 135px;
+    }
+
+    footer #footer-logo {
+        width: 80px;
+    }
+
+    footer img {
+        width: 11px;
+    }
+
+    footer {
+        padding: 10px 15px;
+    }
+
+    footer h5 {
+        font-weight: 200;
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+    .nav-bar {
+        gap: 10px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 100px;
+
+    }
+
+    nav {
+        gap: 70px;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    .setup {
+        padding: 0 40px 0;
+    }
+
+    footer #footer-logo {
+        width: 80px;
+    }
+
+    footer img {
+        width: 11px;
+    }
+
+    footer {
+        padding: 10px 15px;
+    }
+
+    footer h5 {
+        font-weight: 200;
+        font-size: 6px;
+        line-height: 10px;
+    }
+}
+
+@media (min-width: 1120px) and (max-width: 1399px) {
+    .nav-bar {
+        gap: 10px;
+        padding: 10px 40px 28px 40px;
+    }
+
+    .nav-bar img {
+        width: 100px;
+
+    }
+
+    nav {
+        gap: 90px;
+    }
+
+    .setup .sign-up img {
+        width: 264px;
+    }
+
+    footer #footer-logo {
+        width: 85px;
+    }
+
+    footer img {
+        width: 20px;
+    }
+
+    footer {
+        padding: 15px 25px;
+    }
+
+    footer h5 {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 20px;
+    }
 }
