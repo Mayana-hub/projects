@@ -1,9 +1,75 @@
-p {
-    background-color: yellow;
-}
-
-/* 
 .hero {
     gap: 8px;
     box-sizing: border-box;
-} */
+}
+
+.badge {
+    background: none;
+}
+
+.hero {
+    background-image: url(./images/frame-work\ setup\ bg.jpg);
+    background-size: cover;
+    filter: brightness(0.5);
+}
+
+.container h5 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.container .col-12 p {
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.container .col-12 .col-md-5 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.container h4 {
+    font-size: 22px;
+    line-height: 32px;
+    background-color: #FFFFFF;
+    color: #482BE7;
+}
+
+.col-5 span {
+    font-size: 14px;
+    line-height: 26px;
+    color: #15143966;
+}
+
+.col-5 p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0E62;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #482BE7;
+    color: #FFFFFF;
+}
+
+.container h3 {
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+}
+
+.col-md-6 h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #1E0E62;
+}
+
+.col-md-6 p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #15143966;
+}
