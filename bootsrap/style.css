@@ -8,9 +8,9 @@
 }
 
 .hero {
-    background-image: url(./images/frame-work\ setup\ bg.jpg);
     background-size: cover;
-    filter: brightness(0.5);
+    background-color: #2F1893;
+    background-image: url(./images/frame-work\ setup\ bg.jpg);
 }
 
 .container h5 {
@@ -49,11 +49,11 @@
     color: #1E0E62;
 }
 
-.btn {
+/* .btn {
     border-radius: 30px;
     background-color: #482BE7;
     color: #FFFFFF;
-}
+} */
 
 .container h3 {
     font-size: 42px;
@@ -72,4 +72,112 @@
     font-size: 16px;
     line-height: 26px;
     color: #15143966;
+}
+
+.accordion-button::after {
+    margin: 7.5px !important;
+}
+
+.accordion-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62;
+    text-transform: uppercase;
+}
+
+.accordion-header {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.accordion * {
+    outline: none !important;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #1E0E62;
+    margin-left: 10px;
+}
+
+.note {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0E62;
+}
+
+
+
+.steps p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #15143966;
+}
+
+.header h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #1E0E62;
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: #25DAC5;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.btn ul,
+li {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+li {
+    padding-bottom: 1.5rem;
+    border-left: 1px solid #EBEAED;
+    position: relative;
+    padding-left: 30px;
+}
+
+/* &:last-child {
+    border: 0px;
+    padding-bottom: 0;
+} */
+
+.set-up ::before {
+    width: 40px;
+    height: 40px;
+    background: #EBEAED;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: -3px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#set-up1 ::before {
+    content: '1';
+}
+
+#set-up2 ::before {
+    content: '2';
+}
+
+#set-up3 ::before {
+    content: '3';
 }
