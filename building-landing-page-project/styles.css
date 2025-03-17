@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-nav .nav-link {
+    text-decoration: dotted;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.navbar-nav {
+    padding-left: 13rem !important;
+}
+
+#image-wrapper {
+    max-width: 869px;
+    height: 770px;
+}
+
+#image-wrapper #img {
+    position: relative;
+    object-fit: contain;
+}
+
+
+.hero button {
+    position: absolute;
+    padding: 30px 50px;
+    bottom: 0;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+    overflow: visible;
+}
+
+.hero #web-name h1 {
+    margin-top: 18rem;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgb(189, 189, 189);
+}
+
+.hero2 {
+    background-color: #FBFBFB;
+}
+
+.hero2 .section1 h1 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgb(189, 189, 189);
+}
+
+.hero2 .section1 p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.hero2 .section1 button {
+    padding: 30px;
+    width: 222px;
+    text-align: center;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.statistics h1 {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgb(189, 189, 189);
+    padding-top: 120px;
+}
+
+.statistics span {
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 238px;
+    color: rgb(242, 242, 242);
+}
+
+.section2 .back-ground-img {
+    background-image: url(./image/first\ bckgroung\ img.png);
+    object-fit: cover;
+    background-size: cover;
+    backdrop-filter: #333333;
+}
+
+.section2 button {
+    margin: 30px 0 0 211px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+    padding: 24px 39px;
+    background-color: rgb(51, 51, 51);
+}
+
+.section3 button {
+    padding: 21px 5px;
+    max-width: 221px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2C2C2C;
+}
+
+.footer div h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.footer div p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0 0 19px;
+}

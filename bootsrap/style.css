@@ -19,11 +19,11 @@
     color: #FFFFFF;
 }
 
-.container .col-12 p {
+/* .container .col-12 p {
     font-size: 24px;
     line-height: 26px;
     color: #FFFFFF;
-}
+} */
 
 .container .col-12 .col-md-5 {
     font-size: 22px;
@@ -180,4 +180,43 @@ li {
 
 #set-up3 ::before {
     content: '3';
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-wrapper {
+    text-align: center;
+    width: 250px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+}
+
+/* Different object-fit examples */
+.fit-cover {
+    object-fit: cover;
+}
+
+.fit-contain {
+    object-fit: contain;
+}
+
+.fit-fill {
+    object-fit: fill;
+}
+
+.fit-none {
+    object-fit: none;
+}
+
+.fit-scale-down {
+    object-fit: scale-down;
 }
